@@ -34,3 +34,20 @@ ul {
   float: right;
   background-color: #96A9C0;
 }
+.list {
+  border: 2px solid red;
+  padding: 6px;
+  margin: 20px;
+  background-color: yellow;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: white;
+
+  }
