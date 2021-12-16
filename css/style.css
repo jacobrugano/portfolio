@@ -2,7 +2,7 @@ img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 350px;
+  width: 300px;
   float: left;
 }
 
@@ -27,7 +27,7 @@ ul {
 .grid-container {
   display: grid;
   height: 400px;
-  align-content: end;
+  /* align-content: end; */
 }
 .sidebar {
   width: 70%;
@@ -36,10 +36,18 @@ ul {
 }
 .list {
   border: 2px solid red;
-  padding: 6px;
-  margin: 20px;
-  background-color: yellow;
+  padding: 2px;
+  margin: 70px;
+  background-color: #D69595 ;
 }
+
+.econtainer {
+  border: 1px solid red;
+  padding: 6px;
+  margin: 10px;
+  background-color: #FAF0F0 ;
+
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
   body {
     background-color: black;
